@@ -309,7 +309,7 @@ body {
 }
 
 .corner .spot.cafe {
-    background-image: url(img/IMG-20260813-WA0040.jpg);
+    background-image: url(/img/IMG-20260813-WA0040.jpg);
     width: calc(50% - 15px);
     background-size: 100%;
     background-position: center -50px;
@@ -317,28 +317,28 @@ body {
 }
 
 .corner .spot.wine {
-    background-image: url(img/poojan-thanekar-S4D7xDih2PA-unsplash.jpg);
+    background-image: url(/img/poojan-thanekar-S4D7xDih2PA-unsplash.jpg);
     width: calc(50% - 15px);
     background-size: 100%;
     background-position: center -50px;
 }
 
 .corner .spot.home {
-    background-image: url(img/toa-heftiba-TWOnvtstmeU-unsplash.jpg);
+    background-image: url(/img/toa-heftiba-TWOnvtstmeU-unsplash.jpg);
     width: calc(33.33% - 20px);
     background-size: 100%;
     background-position: center -50px;
 }
 
 .corner .spot.scents {
-    background-image: url(img/IMG-20260813-WA0043.jpg);
+    background-image: url(/img/IMG-20260813-WA0043.jpg);
     width: calc(33.33% - 20px);
     background-size: 115%;
     background-position: center 0px;
 }
 
 .corner .spot.makeup {
-    background-image: url(img/toa-heftiba-TWOnvtstmeU-unsplash.jpg);
+    background-image: url(/img/toa-heftiba-TWOnvtstmeU-unsplash.jpg);
     width: calc(33.33% - 20px);
     background-size: 100%;
     background-position: center -50px;
