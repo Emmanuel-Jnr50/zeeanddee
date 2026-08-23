@@ -695,15 +695,15 @@
     background-position: center;
 }
 .gallery .image-grid .top .img.one {
-    background-image: url(/../img/IMG-20260813-WA0042.jpg);
+    background-image: url(../img/IMG-20260813-WA0042.jpg);
 }
 .gallery .image-grid .top .img.two {
-    background-image: url(/../img/IMG-20260813-WA0045.jpg);
+    background-image: url(../img/IMG-20260813-WA0045.jpg);
     height: 150px;
     width: calc(50% - 12px);
 }
 .gallery .image-grid .top .img.three {
-    background-image: url(/../img/IMG-20260813-WA0047.jpg);
+    background-image: url(../img/IMG-20260813-WA0047.jpg);
     height: 150px;
     width: calc(50% - 12px);
 }
