@@ -307,7 +307,7 @@
         top: 0px;
     }
     .corner .spot.cafe {
-        background-image: url(./img/IMG-20260813-WA0042.jpg);
+        background-image: url(/img/IMG-20260813-WA0042.jpg);
         width: 100%;
         background-size: cover;
         background-position: center;
@@ -315,7 +315,7 @@
         background-repeat: no-repeat;
     }
     .corner .spot.wine {
-        background-image: url(./img/IMG-20260813-WA0054.jpg);
+        background-image: url(/img/IMG-20260813-WA0054.jpg);
         width: 100%;
         background-size: cover;
         background-position: center;
@@ -323,7 +323,7 @@
         background-repeat: no-repeat;
     }
     .corner .spot.home {
-        background-image: url(./img/toa-heftiba-TWOnvtstmeU-unsplash.jpg);
+        background-image: url(/img/toa-heftiba-TWOnvtstmeU-unsplash.jpg);
         width: 100%;
         background-size: cover;
         background-position: center;
@@ -331,7 +331,7 @@
         background-repeat: no-repeat;;
     }
     .corner .spot.scents {
-        background-image: url(./img/IMG-20260813-WA0043.jpg);
+        background-image: url(/img/IMG-20260813-WA0043.jpg);
         width: 100%;
         background-size: cover;
         background-position: center;
@@ -339,7 +339,7 @@
         background-repeat: no-repeat;
     }
     .corner .spot.makeup {
-        background-image: url(./img/toa-heftiba-TWOnvtstmeU-unsplash.jpg);
+        background-image: url(/img/toa-heftiba-TWOnvtstmeU-unsplash.jpg);
         width: 100%;
         background-size: cover;
         background-position: center;
@@ -400,7 +400,7 @@
     background-color: var(--gold);
     color: #3c2117;
     font-family: var(--google);
-    border-radius: 10px;
+    border-radius: 40px;
     border: none;
     font-weight: 500;
     transition: 400ms;
@@ -420,7 +420,7 @@
 .about-img .imgone {
     width: 100%;
     height: 280px;
-    background-image: url(./img/roman-bozhko-OXXsAafHDeo-unsplash.jpg);
+    background-image: url(../img/roman-bozhko-OXXsAafHDeo-unsplash.jpg);
     background-size: cover;
     border-radius: 40px;
     background-repeat: no-repeat;
@@ -476,7 +476,7 @@
     margin-bottom: 70px;
 }
 .cafe-section .cafe-menu .imgone {
-    background-image: url(./img/IMG-20260813-WA0042.jpg);
+    background-image: url(../img/IMG-20260813-WA0042.jpg);
     transition: 400ms;
     height: 350px;
     width: 100%;
@@ -485,7 +485,7 @@
     border-radius: 40px;
 }
 .cafe-section .cafe-menu .imgtwo {
-    background-image: url(./img/IMG-20260813-WA0040.jpg);
+    background-image: url(../img/IMG-20260813-WA0040.jpg);
     transition: 400ms;
     height: 225px;
     width: 100%;
@@ -609,7 +609,7 @@
     top: 0px;
 }
 .cafe-section .meals .meal.one {
-    background-image: url(/img/harris-vo-JpQGEArmG0I-unsplash.jpg);
+    background-image: url(../img/harris-vo-JpQGEArmG0I-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-color: #000000;
@@ -708,22 +708,22 @@
     width: calc(50% - 12px);
 }
 .gallery .image-grid .top .img.four {
-    background-image: url(/img/IMG-20260813-WA0050.jpg);
+    background-image: url(../img/IMG-20260813-WA0050.jpg);
 }
 .gallery .image-grid .img.five {
-    background-image: url(/img/IMG-20260813-WA0038.jpg);
+    background-image: url(../img/IMG-20260813-WA0038.jpg);
     height: 300px;
 }
 .gallery .image-grid .img.six {
-    background-image: url(/img/IMG-20260813-WA0044.jpg);
+    background-image: url(../img/IMG-20260813-WA0044.jpg);
     height: 200px;
 }
 .gallery .image-grid .img.seven {
-    background-image: url(/img/IMG-20260813-WA0054.jpg);
+    background-image: url(../img/IMG-20260813-WA0054.jpg);
     height: 300px;
 }
 .our-spaces {
-    background-image: url(/img/IMG-20260813-WA0040.jpg);
+    background-image: url(../img/IMG-20260813-WA0040.jpg);
     padding: 100px 20px;
     background-size: cover;
     background-position: center;
@@ -1128,7 +1128,7 @@
     top: 0;
     width: 100%;
     height: 100%;
-    background-image: url(/img/IMG-20260813-WA0039.jpg);
+    background-image: url(../img/IMG-20260813-WA0039.jpg);
     background-size: cover;
     background-position: center;
     opacity: 0.6;
