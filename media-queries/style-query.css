@@ -420,7 +420,7 @@
 .about-img .imgone {
     width: 100%;
     height: 280px;
-    background-image: url(/img/roman-bozhko-OXXsAafHDeo-unsplash.jpg);
+    background-image: url(./img/roman-bozhko-OXXsAafHDeo-unsplash.jpg);
     background-size: cover;
     border-radius: 40px;
     background-repeat: no-repeat;
@@ -476,7 +476,7 @@
     margin-bottom: 70px;
 }
 .cafe-section .cafe-menu .imgone {
-    background-image: url(/img/IMG-20260813-WA0042.jpg);
+    background-image: url(./img/IMG-20260813-WA0042.jpg);
     transition: 400ms;
     height: 350px;
     width: 100%;
@@ -485,7 +485,7 @@
     border-radius: 40px;
 }
 .cafe-section .cafe-menu .imgtwo {
-    background-image: url(/img/IMG-20260813-WA0040.jpg);
+    background-image: url(./img/IMG-20260813-WA0040.jpg);
     transition: 400ms;
     height: 225px;
     width: 100%;
