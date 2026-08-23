@@ -307,7 +307,7 @@
         top: 0px;
     }
     .corner .spot.cafe {
-        background-image: url(/img/IMG-20260813-WA0042.jpg);
+        background-image: url(../img/IMG-20260813-WA0042.jpg);
         width: 100%;
         background-size: cover;
         background-position: center;
@@ -315,7 +315,7 @@
         background-repeat: no-repeat;
     }
     .corner .spot.wine {
-        background-image: url(/img/IMG-20260813-WA0054.jpg);
+        background-image: url(../img/IMG-20260813-WA0054.jpg);
         width: 100%;
         background-size: cover;
         background-position: center;
@@ -323,7 +323,7 @@
         background-repeat: no-repeat;
     }
     .corner .spot.home {
-        background-image: url(/img/toa-heftiba-TWOnvtstmeU-unsplash.jpg);
+        background-image: url(../img/toa-heftiba-TWOnvtstmeU-unsplash.jpg);
         width: 100%;
         background-size: cover;
         background-position: center;
@@ -331,7 +331,7 @@
         background-repeat: no-repeat;;
     }
     .corner .spot.scents {
-        background-image: url(/img/IMG-20260813-WA0043.jpg);
+        background-image: url(../img/IMG-20260813-WA0043.jpg);
         width: 100%;
         background-size: cover;
         background-position: center;
@@ -339,7 +339,7 @@
         background-repeat: no-repeat;
     }
     .corner .spot.makeup {
-        background-image: url(/img/toa-heftiba-TWOnvtstmeU-unsplash.jpg);
+        background-image: url(../img/toa-heftiba-TWOnvtstmeU-unsplash.jpg);
         width: 100%;
         background-size: cover;
         background-position: center;
