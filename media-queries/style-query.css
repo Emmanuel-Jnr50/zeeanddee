@@ -400,7 +400,7 @@
     background-color: var(--gold);
     color: #3c2117;
     font-family: var(--google);
-    border-radius: 40px;
+    border-radius: 10px;
     border: none;
     font-weight: 500;
     transition: 400ms;
