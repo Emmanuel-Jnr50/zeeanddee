@@ -6,7 +6,7 @@
     --brown: #271711;
     --brown-text: #3c211775;
     --bg-sec: #F6EFE5;
-    --chunk: Chunk;
+    --chunk:  Chunk;
     --sundae: Chunky Sundae;
     --google: Google Sans;
     --inter: Inter;
@@ -265,6 +265,7 @@
         border-radius: 40px;
         position: relative;
         overflow: hidden;
+        transition: 400ms !important;
     }
     .corner .spot .info {
         position: absolute;
@@ -307,12 +308,13 @@
         top: 0px;
     }
     .corner .spot.cafe {
-        background-image: url(../img/IMG-20260813-WA0042.jpg);
+        background-image: url(../img/IMG-20260813-WA0057.jpg);
         width: 100%;
         background-size: cover;
         background-position: center;
         transition: 400ms;
         background-repeat: no-repeat;
+        transition: 400ms !important;
     }
     .corner .spot.wine {
         background-image: url(../img/IMG-20260813-WA0054.jpg);
@@ -321,6 +323,7 @@
         background-position: center;
         transition: 400ms;
         background-repeat: no-repeat;
+        transition: 400ms !important;
     }
     .corner .spot.home {
         background-image: url(../img/toa-heftiba-TWOnvtstmeU-unsplash.jpg);
@@ -328,7 +331,8 @@
         background-size: cover;
         background-position: center;
         transition: 400ms;
-        background-repeat: no-repeat;;
+        background-repeat: no-repeat;
+        transition: 400ms !important;
     }
     .corner .spot.scents {
         background-image: url(../img/IMG-20260813-WA0043.jpg);
@@ -337,6 +341,7 @@
         background-position: center;
         transition: 400ms;
         background-repeat: no-repeat;
+        transition: 400ms !important;
     }
     .corner .spot.makeup {
         background-image: url(../img/toa-heftiba-TWOnvtstmeU-unsplash.jpg);
@@ -345,7 +350,12 @@
         background-position: center;
         transition: 400ms;
         background-repeat: no-repeat;
+        transition: 400ms !important;
     }
+    /* .corner .spot:hover {
+        background-size: 200%;
+        transition: 400ms !important;
+    } */
     /* .corner .spot.cafe:hover {
         background-size: 105%;
     } */
@@ -485,7 +495,7 @@
     border-radius: 40px;
 }
 .cafe-section .cafe-menu .imgtwo {
-    background-image: url(../img/IMG-20260813-WA0040.jpg);
+    background-image: url(../img/IMG_0389.webp);
     transition: 400ms;
     height: 225px;
     width: 100%;
@@ -629,7 +639,7 @@
 .gallery {
     margin: 170px 20px;
 }
-.gallery span{
+.gallery .header span{
     display: flex;
     gap: 8px;
     align-items: center;
@@ -643,10 +653,10 @@
     font-family: var(--inter);
     letter-spacing: -0.2px;
 }
-.gallery span img{
+.gallery .header span img{
     width: 16px;
 }
-.gallery h3 {
+.gallery .header h3 {
     font-size: 40px;
     font-family: var(--chunk);
     color: var(--brown);
@@ -654,7 +664,7 @@
     width: 100%;
     margin: 30px 0px 15px ;
 }
-.gallery p {
+.gallery .header p {
     font-size: 15px;
     color: var(--brown);
     font-weight: 400;
