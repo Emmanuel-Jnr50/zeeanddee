@@ -291,7 +291,7 @@
         font-family: var(--google);
     }
     .corner .spot.cafe .info p, .corner .spot.wine .info p {
-        width: 520px;
+        width: 90%;
     }
     .corner .spot::before {
         content: "";
