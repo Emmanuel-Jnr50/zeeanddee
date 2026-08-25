@@ -266,3 +266,33 @@ gsap.from(
     ease: "power2.out",
   },
 );
+gsap.from(
+  ".why-us .header span, .why-us .header h3, .why-us .header p",
+  {
+    scrollTrigger: {
+      trigger: ".why-us .header", // element to watch
+      start: "top 80%", // when element hits 80% of viewport
+      toggleActions: "play none none none",
+      // play | pause | reverse | reset
+    },
+    x: -40,
+    opacity: 0,
+    duration: 0.7,
+    stagger: 0.15,
+    ease: "power2.out",
+  },
+);
+mm.add("(min-width: 800px) and (max-width: 1920px)", () => {
+  gsap.from(".why-us .reasons .card", {
+    scrollTrigger: {
+      trigger: ".why-us .reasons",
+      start: "top 60%",
+      toggleActions: "play none none none",
+    },
+    y: 50,
+    opacity: 0,
+    stagger: 0.2,
+    duration: 0.5,
+    ease: "power3.out",
+  });
+});

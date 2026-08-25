@@ -7,7 +7,7 @@
     --brown-text: #3c211775;
     --bg-sec: #F6EFE5;
     --chunk:  Chunk;
-    --sundae: Chunk Sundae;
+    --sundae: Chunky Sundae;
     --google: Google Sans;
     --inter: Inter;
 }
@@ -905,10 +905,10 @@
     font-family: var(--inter);
     letter-spacing: -0.2px;
 }
-.why-us span img{
+.why-us .header span img{
     width: 16px;
 }
-.why-us h3 {
+.why-us .header h3 {
     font-size: 40px;
     font-family: var(--chunk);
     color: var(--brown);
@@ -916,7 +916,7 @@
     width: 90%;
     margin: 30px 0px 15px ;
 }
-.why-us p {
+.why-us .header p {
     font-size: 16px;
     color: var(--brown);
     font-weight: 400;
