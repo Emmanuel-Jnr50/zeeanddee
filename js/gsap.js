@@ -2,7 +2,7 @@ gsap.registerPlugin(ScrollTrigger);
 const mm = gsap.matchMedia();
 
 gsap.from(
-  ".phone-hero .hero-text span, .phone-hero .hero-text h1, .phone-hero .hero-text p",
+  ".phone-hero .hero-text > span, .phone-hero .hero-text h1, .phone-hero .hero-text p, .phone-hero .hero-text div",
   {
     scrollTrigger: {
       trigger: ".phone-hero", // element to watch
@@ -250,3 +250,19 @@ gsap.from(".gallery .image-grid .img", {
   duration: 0.5,
   ease: "power3.out",
 });
+gsap.from(
+  ".our-spaces .header span, .our-spaces .header h3, .our-spaces .header p",
+  {
+    scrollTrigger: {
+      trigger: ".our-spaces .header", // element to watch
+      start: "top 80%", // when element hits 80% of viewport
+      toggleActions: "play none none none",
+      // play | pause | reverse | reset
+    },
+    x: -40,
+    opacity: 0,
+    duration: 0.7,
+    stagger: 0.15,
+    ease: "power2.out",
+  },
+);

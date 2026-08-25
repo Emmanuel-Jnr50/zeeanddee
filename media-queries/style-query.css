@@ -7,7 +7,7 @@
     --brown-text: #3c211775;
     --bg-sec: #F6EFE5;
     --chunk:  Chunk;
-    --sundae: Chunky Sundae;
+    --sundae: Chunk Sundae;
     --google: Google Sans;
     --inter: Inter;
 }
@@ -635,6 +635,7 @@
     border-radius: 50px;
     font-family: var(--google);
     font-weight: 500;
+    color: #562731;
 }
 .gallery {
     margin: 170px 20px;
@@ -740,7 +741,7 @@
     /* height: 100vh; */
     overflow: hidden;
     position: relative;
-    /* border-radius: 60px 60px 120px 120px; */
+    border-radius: 30px 30px 60px 60px;
 }
 .our-spaces::before {
     content: "";
@@ -760,7 +761,7 @@
         #271711 );
     opacity: 0.9;
 }
-.our-spaces span{
+.our-spaces .header span{
     display: flex;
     gap: 8px;
     align-items: center;
@@ -774,10 +775,10 @@
     font-family: var(--inter);
     letter-spacing: -0.2px;
 }
-.our-spaces span img{
+.our-spaces header span img{
     width: 16px;
 }
-.our-spaces .main>h3 {
+.our-spaces .main .header h3 {
     font-size: 40px;
     font-family: var(--chunk);
     color: #ffffff;
@@ -786,7 +787,7 @@
     margin: 30px 0px 15px 0px;
     position: relative;
 }
-.our-spaces .main>p {
+.our-spaces .main .header p {
     font-size: 16px;
     color: #ffffff;
     font-weight: 400;
@@ -800,11 +801,9 @@
     margin-top: 100px;
     position: relative;
 }
-.our-spaces .group-indicators {
-
-}
-.our-spaces .group-indicators .one {
-
+.our-spaces .flow-cards {
+    overflow: hidden;
+    border-radius: 40px;
 }
 .our-spaces .info .group {
     display: flex;
@@ -825,8 +824,8 @@
     justify-content: left;
     gap: 10px;
     height: 40px;
-    width: 40px;
-    padding: 0 14px;
+    width: 43px;
+    padding: 0 14px 0px 12px;
     border-radius: 20px;
     background: rgba(250, 250, 248, 0.30);
     position: relative;
@@ -844,7 +843,7 @@
     z-index: 2;
     font-size: 15px;
     color: #fff;
-    font-weight: bold;
+    font-weight: normal;
     white-space: nowrap;
 }
 .our-spaces .group-indicator .ind-item i {
