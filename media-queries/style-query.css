@@ -1338,4 +1338,98 @@
     font-family: var(--google);
     font-weight: 500;
 }
+.footer {
+    background-color: #1b1b1b;
+    padding: 150px 20px 50px 20px;
+    /* border-radius: 60px 60px 100px 100px; */
+    /* padding-left: calc(1920px - 1800px + 60px);
+    padding-right: calc(1920px - 1800px + 60px); */
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: -60px;
+    width: 100%;
+}
+.footer > .top {
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.footer .summary { 
+    margin-right: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-bottom: 2px solid #fbfaf815;
+    padding-bottom: 20px;
+    width: 100%;
+}
+.footer .summary .top {
+    display: flex;
+    flex-direction: column;
+}
+.footer .summary img { 
+    width: 65px;
+    margin-bottom: 15px;
+}
+.footer .summary h3 { 
+    font-size: 25px;
+    font-family: var(--chunk);
+    font-weight: 100;
+    color: var(--bg-color);
+    margin-bottom: 10px;
+    /* -webkit-text-stroke: 0.5px #1b1b1b; */
+}
+.footer .summary p { 
+    font-size: 15px;
+    font-family: var(--google);
+    font-weight: 500;
+    color: var(--gold);
+    margin-bottom: 10px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+.footer div {
+    width: 90%;
+}
+.footer div h4 {
+    font-size: 22px;
+    font-family: var(--sundae);
+    font-weight: normal;
+    color: var(--bg-color);
+    margin-bottom: 8px;
+    /* -webkit-text-stroke: 0.5px #1b1b1b; */
+    margin-bottom: 25px;
+}
+.footer div ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+.footer div li {
+    font-size: 17px;
+    color: #fbfaf875;
+    transition: 400ms;
+    cursor: pointer;
+}
+.footer div li:hover {
+    color: var(--gold);
+}
+.footer .bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 50px;
+    margin-top: 100px;
+    border-top: 2px solid #fbfaf815;
+}
+.footer .bottom p{
+    font-size: 14px;
+    color: #fbfaf875;
+}
 }
