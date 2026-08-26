@@ -993,6 +993,7 @@ body {
     padding-right: calc(1920px - 1800px + 60px);
     /* border-radius: 0px 0px 60px 60px; */
     /* background-image removed from here — the .bg-layer divs handle it now */
+    background-color: var(--brown);
 }
 
 .our-spaces::before {
@@ -1096,7 +1097,7 @@ body {
     background-color: #fafaf8cc;
     padding: 40px;
     border-radius: 50px;
-    width: 620px;
+    width: 600px;
     opacity: 1;
     /* flex-shrink: 0; */
     backdrop-filter: blur(20px);
@@ -1451,7 +1452,9 @@ body {
     gap: 5px;
     margin-bottom: 20px;
 }
-
+.testimonial span img {
+    width: 20px;
+}
 .testimonial p {
     width: 90%;
     font-size: 20px;
