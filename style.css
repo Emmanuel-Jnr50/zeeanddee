@@ -1331,6 +1331,7 @@ body {
 .why-us .reasons .card p {
     width: 100%;
     margin-top: 0px !important;
+    font-family: var(--google)
 }
 
 .why-us .reasons .card span {
@@ -1389,6 +1390,7 @@ body {
     opacity: 0.9;
     margin-bottom: 75px;
     opacity: 0.75;
+    font-family: var(--google)
 }
 
 .testimonials-wrapper {
@@ -1753,6 +1755,7 @@ body {
     margin-bottom: 10px;
     letter-spacing: 2px;
     text-transform: uppercase;
+    font-family: var(--google)
 }
 .footer div {
     width: 350px;
@@ -1777,6 +1780,7 @@ body {
     color: #fbfaf875;
     transition: 400ms;
     cursor: pointer;
+    font-family: var(--google)
 }
 .footer div li:hover {
     color: var(--gold);
