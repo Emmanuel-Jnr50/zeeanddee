@@ -1796,4 +1796,5 @@ body {
 .footer .bottom p{
     font-size: 17px;
     color: #fbfaf875;
+    font-family: var(--google);
 }
