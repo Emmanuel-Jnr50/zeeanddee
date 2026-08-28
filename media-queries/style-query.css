@@ -389,7 +389,7 @@
         top: 0px;
     }
     .corner .spot.cafe {
-        background-image: url(../img/IMG-20260813-WA0057.jpg);
+        background-image: url(../img/IMG-20260813-WA0057.webp);
         width: 100%;
         background-size: cover;
         background-position: center;
@@ -398,7 +398,7 @@
         transition: 400ms !important;
     }
     .corner .spot.wine {
-        background-image: url(../img/IMG-20260813-WA0054.jpg);
+        background-image: url(../img/IMG-20260813-WA0054.webp);
         width: 100%;
         background-size: cover;
         background-position: center;
@@ -407,7 +407,7 @@
         transition: 400ms !important;
     }
     .corner .spot.home {
-        background-image: url(../img/toa-heftiba-TWOnvtstmeU-unsplash.jpg);
+        background-image: url(../img/toa-heftiba-TWOnvtstmeU-unsplash.webp);
         width: 100%;
         background-size: cover;
         background-position: center;
@@ -416,7 +416,7 @@
         transition: 400ms !important;
     }
     .corner .spot.scents {
-        background-image: url(../img/IMG-20260813-WA0043.jpg);
+        background-image: url(../img/IMG-20260813-WA0043.webp);
         width: 100%;
         background-size: cover;
         background-position: center;
@@ -425,7 +425,7 @@
         transition: 400ms !important;
     }
     .corner .spot.makeup {
-        background-image: url(../img/toa-heftiba-TWOnvtstmeU-unsplash.jpg);
+        background-image: url(../img/toa-heftiba-TWOnvtstmeU-unsplash.webp);
         width: 100%;
         background-size: cover;
         background-position: center;
@@ -511,7 +511,7 @@
 .about-img .imgone {
     width: 100%;
     height: 280px;
-    background-image: url(../img/roman-bozhko-OXXsAafHDeo-unsplash.jpg);
+    background-image: url(../img/roman-bozhko-OXXsAafHDeo-unsplash.webp);
     background-size: cover;
     border-radius: 40px;
     background-repeat: no-repeat;
@@ -709,22 +709,22 @@
     background-image: url(../img/cappuccino.webp);
 }
 .cafe-section .meals .meal.two {
-    background-image: url(../img/lemon-margarita.jpg);
+    background-image: url(../img/lemon-margarita.webp);
     background-position: center -80px;
 }
 .cafe-section .meals .meal.three {
-    background-image: url(../img/pepper-turkey.jpeg);
+    background-image: url(../img/pepper-turkey.webp);
 }
 .cafe-section .meals .meal.four {
-    background-image: url(../img/tropical-smoothie.jpg);
+    background-image: url(../img/tropical-smoothie.webp);
     background-position: center -50px;
 }
 .cafe-section .meals .meal.five {
-    background-image: url(../img/virgin-mojito.jpg);  
+    background-image: url(../img/virgin-mojito.webp);  
 }
 .cafe-section .meals .meal.six {
     background-position: center -90px;
-    background-image: url(../img/omelette-sandwich.jpg);  
+    background-image: url(../img/omelette-sandwich.webp);  
 }
 .cafe-section .meals .meal .price {
     position: absolute;
@@ -807,35 +807,41 @@
     background-position: center;
 }
 .gallery .image-grid .top .img.one {
-    background-image: url(../img/IMG-20260813-WA0042.jpg);
+    background-image: url(../img/IMG-20260813-WA0042.webp);
 }
+
 .gallery .image-grid .top .img.two {
-    background-image: url(../img/IMG-20260813-WA0045.jpg);
+    background-image: url(../img/IMG0420_edited_1787660854159.webp);
     height: 150px;
     width: calc(50% - 12px);
 }
+
 .gallery .image-grid .top .img.three {
-    background-image: url(../img/IMG-20260813-WA0047.jpg);
+    background-image: url(../img/IMG0439_edited_1787660664211.webp);
     height: 150px;
     width: calc(50% - 12px);
 }
+
 .gallery .image-grid .top .img.four {
-    background-image: url(../img/IMG-20260813-WA0050.jpg);
+    background-image: url(../img/IMG_0396.webp);
 }
+
 .gallery .image-grid .img.five {
-    background-image: url(../img/IMG-20260813-WA0038.jpg);
+    background-image: url(../img/IMG0426_edited_1787660855257.webp);
     height: 300px;
 }
+
 .gallery .image-grid .img.six {
-    background-image: url(../img/IMG-20260813-WA0044.jpg);
+    background-image: url(../img/IMG0411_edited_1787660665268.webp);
     height: 200px;
 }
+
 .gallery .image-grid .img.seven {
-    background-image: url(../img/IMG-20260813-WA0054.jpg);
+    background-image: url(../img/IMG-20260813-WA0054.webp);
     height: 300px;
 }
 .our-spaces {
-    background-image: url(../img/IMG-20260813-WA0040.jpg);
+    background-image: url(../img/IMG-20260813-WA0040.webp);
     padding: 100px 20px;
     background-size: cover;
     background-position: center;

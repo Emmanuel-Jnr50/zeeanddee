@@ -61,7 +61,7 @@ gsap.from(
   },
 );
 mm.add("(min-width: 320px) and (max-width: 700px)", () => {
-  gsap.from(".our-corner .corner", {
+  gsap.from(".our-corner .corner-wrapper", {
     scrollTrigger: {
       trigger: ".our-corner .corner-wrapper",
       start: "top 85%",
@@ -69,7 +69,6 @@ mm.add("(min-width: 320px) and (max-width: 700px)", () => {
     },
     y: 20,
     opacity: 0,
-    stagger: 0.12,
     duration: 0.5,
     ease: "power2.out",
   });
@@ -88,7 +87,7 @@ mm.add("(min-width: 800px) and (max-width: 1920px)", () => {
     ease: "power2.out",
   });
 });
-gsap.from(".about-us .left span, .about-us .left h3, .about-us .left p", {
+gsap.from(".about-us .left span, .about-us .left h3, .about-us .left p, .about-us .left button", {
   scrollTrigger: {
     trigger: ".about-us .left", // element to watch
     start: "top 80%", // when element hits 80% of viewport
