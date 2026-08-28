@@ -699,18 +699,38 @@
     opacity: 1;
     top: 0px;
 }
-.cafe-section .meals .meal.one {
-    background-image: url(../img/harris-vo-JpQGEArmG0I-unsplash.jpg);
+.cafe-section .meals .meal {
     background-size: cover;
     background-repeat: no-repeat;
     background-color: #000000;
     background-position: center 100%;
 }
+.cafe-section .meals .meal.one {
+    background-image: url(../img/cappuccino.webp);
+}
+.cafe-section .meals .meal.two {
+    background-image: url(../img/lemon-margarita.jpg);
+    background-position: center -80px;
+}
+.cafe-section .meals .meal.three {
+    background-image: url(../img/pepper-turkey.jpeg);
+}
+.cafe-section .meals .meal.four {
+    background-image: url(../img/tropical-smoothie.jpg);
+    background-position: center -50px;
+}
+.cafe-section .meals .meal.five {
+    background-image: url(../img/virgin-mojito.jpg);  
+}
+.cafe-section .meals .meal.six {
+    background-position: center -90px;
+    background-image: url(../img/omelette-sandwich.jpg);  
+}
 .cafe-section .meals .meal .price {
     position: absolute;
     right: 25px;
     top: 25px;
-    background-color: var(--bg-sec);
+    background-color: var(--bg-color);
     font-size: 14px;
     padding: 10px 10px;
     border-radius: 50px;
@@ -1034,6 +1054,8 @@
 .why-us .reasons .card p {
     width: 100%;
     margin-top: -10px !important;
+    font-size: 16px;
+    line-height: 24px;
 }
 .why-us .reasons .card span {
     height: 50px;
@@ -1056,14 +1078,14 @@
     position: relative;
 }
 
-.testimonials .main>span {
+.testimonials .main .header span {
     display: flex;
     gap: 8px;
     align-items: center;
     color: var(--brown);
     font-weight: 500;
     font-size: 14px;
-    background-color: #3c211724;
+    background-color: rgba(60, 33, 23, 0.141);
     width: fit-content;
     padding: 10px 12px 10px 12px;
     border-radius: 30px;
@@ -1071,11 +1093,11 @@
     letter-spacing: -0.2px;
 }
 
-.testimonials .main>span img {
+.testimonials .main .header span img {
     width: 16px;
 }
 
-.testimonials .main>h3 {
+.testimonials .main .header h3 {
     font-size: 40px;
     font-family: var(--chunk);
     color: var(--brown);
@@ -1084,7 +1106,7 @@
     margin: 30px 0px 15px;
 }
 
-.testimonials .main>p {
+.testimonials .main .header p {
     font-size: 16px;
     color: var(--brown);
     font-weight: 400;
@@ -1246,7 +1268,7 @@
     position: relative;
     z-index: 2;
 }
-.visit-us .main>span {
+.visit-us .main .header span {
     display: flex;
     gap: 8px;
     align-items: center;
@@ -1261,11 +1283,11 @@
     letter-spacing: -0.2px;
 }
 
-.visit-us .main>span img {
+.visit-us .main .header span img {
     width: 16px;
 }
 
-.visit-us .main>h3 {
+.visit-us .main .header h3 {
     font-size: 40px;
     font-family: var(--chunk);
     color: #ffffff;
@@ -1275,7 +1297,7 @@
     position: relative;
 }
 
-.visit-us .main>p {
+.visit-us .main .header p {
     font-size: 16px;
     color: #ffffff;
     font-weight: 400;

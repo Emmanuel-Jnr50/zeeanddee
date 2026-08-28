@@ -296,3 +296,130 @@ mm.add("(min-width: 800px) and (max-width: 1920px)", () => {
     ease: "power3.out",
   });
 });
+
+/* ---- WHY US — mobile-only spotlight scale effect on cards ---- */
+mm.add({
+    isMobile: '(max-width: 768px)',
+    isDesktop: '(min-width: 769px)'
+}, (context) => {
+    const { isMobile } = context.conditions;
+    const cards = document.querySelectorAll('.why-us .reasons .card');
+    if (!cards.length) return;
+
+    if (isMobile) {
+        cards.forEach((card) => {
+            gsap.set(card, {
+                scale: 0.85,
+                transformOrigin: 'center center',
+                boxShadow: '0 0px 0px rgba(39, 23, 17, 0)'
+            });
+
+            ScrollTrigger.create({
+                trigger: card,
+                start: 'top 90%',   // card just entering from below
+                end: 'bottom 10%',  // card fully exited above
+                scrub: true,
+                onUpdate: (self) => {
+                    // bell curve: 0 at both ends, peaks at 1 in the middle
+                    // (progress 0.5 = card roughly centered in viewport)
+                    const bump = Math.sin(self.progress * Math.PI);
+                    const scale = 0.85 + (0.15 * bump);       // 0.85 → 1.0 → 0.85
+                    const shadowStrength = bump;                // 0 → 1 → 0
+
+                    gsap.set(card, {
+                        scale,
+                        boxShadow: `0 ${5 * shadowStrength}px ${15 * shadowStrength}px rgba(60, 33, 23, ${0.08 * shadowStrength})`
+                    });
+                }
+            });
+        });
+    } else {
+        gsap.from(cards, {
+            y: 35, opacity: 0, duration: 0.7, ease: 'power2.out', stagger: 0.1,
+            scrollTrigger: { trigger: '.reasons', start: 'top 78%' }
+        });
+    }
+});
+gsap.from(
+  ".testimonials .header span, .testimonials .header h3, .testimonials .header p",
+  {
+    scrollTrigger: {
+      trigger: ".testimonials .header", // element to watch
+      start: "top 80%", // when element hits 80% of viewport
+      toggleActions: "play none none none",
+      // play | pause | reverse | reset
+    },
+    x: -40,
+    opacity: 0,
+    duration: 0.7,
+    stagger: 0.15,
+    ease: "power2.out",
+  },
+);
+gsap.from(".testimonials .testimonials-wrapper .testimonial", {
+  scrollTrigger: {
+    trigger: ".testimonials .testimonials-wrapper",
+    start: "top 60%",
+    toggleActions: "play none none none",
+  },
+  y: 50,
+  opacity: 0,
+  stagger: 0.3,
+  duration: 0.5,
+  ease: "power3.out",
+});
+gsap.from(
+  ".visit-us .header span, .visit-us .header h3, .visit-us .header p",
+  {
+    scrollTrigger: {
+      trigger: ".visit-us .header", // element to watch
+      start: "top 80%", // when element hits 80% of viewport
+      toggleActions: "play none none none",
+      // play | pause | reverse | reset
+    },
+    x: -40,
+    opacity: 0,
+    duration: 0.7,
+    stagger: 0.15,
+    ease: "power2.out",
+  },
+);
+gsap.from(".visit-content .left div>span", {
+  scrollTrigger: {
+    trigger: ".visit-content",
+    start: "top 60%",
+    toggleActions: "play none none none",
+  },
+  y: 50,
+  opacity: 0,
+  stagger: 0.3,
+  duration: 0.5,
+  ease: "power3.out",
+})
+gsap.from(
+  ".visit-container .location p, visit-container .opening-hours .hours span, .visit-container .contact p",
+  {
+    scrollTrigger: {
+      trigger: ".visit-container div", // element to watch
+      start: "top 80%", // when element hits 80% of viewport
+      toggleActions: "play none none none",
+      // play | pause | reverse | reset
+    },
+    x: -40,
+    opacity: 0,
+    duration: 0.7,
+    stagger: 0.15,
+    ease: "power2.out",
+  },
+);
+gsap.from(".visit-content .map", {
+  scrollTrigger: {
+    trigger: ".visit-content .map",
+    start: "top 60%",
+    toggleActions: "play none none none",
+  },
+  y: 50,
+  opacity: 0,
+  duration: 0.5,
+  ease: "power2.out",
+})

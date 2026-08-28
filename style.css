@@ -634,6 +634,7 @@ body {
 
 .cafe-section .cafe-menu .menu span i img {
     width: 20px;
+    /* fill: #562731; */
 }
 
 .cafe-section .cafe-menu .menu button {
@@ -861,14 +862,30 @@ body {
     top: 0px;
 }
 
-.cafe-section .meals .meal.one {
-    background-image: url(./img/harris-vo-JpQGEArmG0I-unsplash.jpg);
+.cafe-section .meals .meal {
     background-size: cover;
     background-repeat: no-repeat;
     background-color: #000000;
     background-position: center 100%;
 }
-
+.cafe-section .meals .meal.one {
+    background-image: url(./img/cappuccino.webp);
+}
+.cafe-section .meals .meal.two {
+    background-image: url(./img/lemon-margarita.jpg);
+}
+.cafe-section .meals .meal.three {
+    background-image: url(./img/pepper-turkey.jpeg);
+}
+.cafe-section .meals .meal.four {
+    background-image: url(./img/tropical-smoothie.jpg);
+}
+.cafe-section .meals .meal.five {
+    background-image: url(./img/virgin-mojito.jpg);  
+}
+.cafe-section .meals .meal.six {
+    background-image: url(./img/omelette-sandwich.jpg);  
+}
 .cafe-section .meals .meal .price {
     position: absolute;
     right: 30px;
@@ -1331,7 +1348,8 @@ body {
 .why-us .reasons .card p {
     width: 100%;
     margin-top: 0px !important;
-    font-family: var(--google)
+    font-family: var(--google);
+    color: #3c2117cc;
 }
 
 .why-us .reasons .card span {
@@ -1355,7 +1373,7 @@ body {
     position: relative;
 }
 
-.testimonials .main>span {
+.testimonials .main .header span {
     display: flex;
     gap: 10px;
     align-items: center;
@@ -1368,11 +1386,11 @@ body {
     border-radius: 30px;
 }
 
-.testimonials .main>span img {
+.testimonials .main .header span img {
     width: 18px;
 }
 
-.testimonials .main>h3 {
+.testimonials .main .header h3 {
     font-size: 60px;
     font-family: var(--chunk);
     color: var(--brown);
@@ -1381,7 +1399,7 @@ body {
     margin: 30px 0px 15px;
 }
 
-.testimonials .main>p {
+.testimonials .main .header p {
     font-size: 22px;
     color: var(--brown);
     font-weight: 400;
@@ -1552,7 +1570,7 @@ body {
     position: relative;
     z-index: 2;
 }
-.visit-us .main>span {
+.visit-us .main .header span {
     display: flex;
     gap: 10px;
     align-items: center;
@@ -1566,11 +1584,11 @@ body {
     position: relative;
 }
 
-.visit-us .main>span img {
+.visit-us .main .header span img {
     width: 20px;
 }
 
-.visit-us .main>h3 {
+.visit-us .main .header h3 {
     font-size: 70px;
     font-family: var(--chunk);
     color: #ffffff;
@@ -1580,7 +1598,7 @@ body {
     position: relative;
 }
 
-.visit-us .main>p {
+.visit-us .main .header p {
     font-size: 22px;
     color: #ffffff;
     font-weight: 400;
