@@ -1757,6 +1757,24 @@ body {
     text-transform: uppercase;
     font-family: var(--google)
 }
+.footer .summary .socials {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.footer .summary .socials span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333333;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.footer .summary .socials span img {
+    width: 18px;
+    margin-bottom: 0px;
+}
 .footer div {
     width: 350px;
 }

@@ -448,3 +448,10 @@ document.addEventListener('DOMContentLoaded', function () {
         startAutoplay();
     });
 });
+
+const phoneNav = document.getElementById('phonenav');
+const menuBtn = document.getElementById('menu-btn');
+
+menuBtn.addEventListener('click', function () {
+    phoneNav.classList.toggle('active');
+});

@@ -84,6 +84,87 @@
     .phone-hero .nav-right button img{
         width: 30px;
     }
+    .phone-hero nav .phone-nav {
+        display: flex;
+        flex-direction: column;
+        /* padding: 20px 25px 30px 25px; */
+        background-color: var(--brown);
+        border-radius: 30px 30px 50px 50px;
+        position: absolute;
+        top: 100px;
+        width: 100%;
+        left: 0px;
+        overflow: hidden;
+        max-height: 0px;
+        transition: 500ms ease;
+        /* opacity: 0; */
+        box-shadow: 0px 10px 30px 0px rgba(60, 33, 23, 0.394);
+    }
+    .phone-hero nav .phone-nav>span{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 10px 18px 10px;
+        font-size: 18px;
+        font-weight: 500;
+        font-family: var(--google);
+        color: var(--bg-color);
+        border-bottom: 1px solid rgb(200, 152, 72, 0.3);
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    .phone-hero nav .phone-nav>span:nth-child(1) {
+        margin-top: 20px;
+    }
+    .phone-hero nav .phone-nav>span:nth-child(5) {
+        border-bottom: 1px solid rgb(200, 152, 72, 0);
+    }
+    .phone-hero nav .phone-nav .whatsapp {
+        width: calc(100% - 50px);
+        display: flex;
+        gap: 0px;
+        align-items: center;
+        margin-top: 15px;
+        margin-left: 25px;
+        margin-right: 25px;
+        margin-bottom: 30px;
+    }
+    .phone-hero nav .phone-nav .whatsapp button {
+        padding: 15px 25px;
+        font-size: 18px;
+        background-color: var(--gold);
+        color: #3c2117;
+        font-family: var(--google);
+        border-radius: 40px;
+        border: none;
+        font-weight: 500;
+        transition: 400ms;
+        cursor: pointer;
+        width: calc(100% - 55px);
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    .phone-hero nav .phone-nav .whatsapp button img {
+        height: 20px;
+        
+    }
+    .phone-hero nav .phone-nav .whatsapp span {
+        border-radius: 40px;
+        height: 50px;
+        width: 50px;
+        background-color: var(--gold);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 0px;
+    }
+    .phone-hero nav .phone-nav.active{
+        max-height: 60vh;
+        /* opacity: 1; */
+        /* transition: 500ms ease-out; */
+    }
     .phone-hero .hero-text {
         position: relative;
         z-index: 10;
@@ -971,7 +1052,7 @@
 .testimonials {
     background-color: var(--bg-sec);
     padding: 100px 20px;
-    /* border-radius: 60px 60px 100px 100px; */
+    border-radius: 30px 30px 0px 0px;
     position: relative;
 }
 
@@ -1137,7 +1218,7 @@
     top: 0;
     width: 100%;
     height: 100%;
-    background-image: url(../img/IMG-20260813-WA0039.jpg);
+    background-image: url(../img/IMG_0395.webp);
     background-size: cover;
     background-position: center;
     opacity: 0.6;
@@ -1211,10 +1292,10 @@
     gap: 30px;
 }
 .visit-container {
-    background-color: #fbfaf8cc;
-    backdrop-filter: blur(20px);
+    background-color: rgba(251, 250, 248, 0.85);
+    backdrop-filter: blur(10px);
     border-radius: 40px;
-    padding: 50px 25px;
+    padding: 50px 25px 25px 25px;
     width: 100%;
 }
 .visit-container .left {
@@ -1238,7 +1319,7 @@
     letter-spacing: -0.2;
 }
 .visit-container .left span img {
-    width: 16px;
+    width: 15px;
 }
 .visit-container .left p {
     font-size: 18px;
@@ -1340,7 +1421,7 @@
 }
 .footer {
     background-color: #1b1b1b;
-    padding: 150px 20px 50px 20px;
+    padding: 130px 20px 50px 20px;
     /* border-radius: 60px 60px 100px 100px; */
     /* padding-left: calc(1920px - 1800px + 60px);
     padding-right: calc(1920px - 1800px + 60px); */
@@ -1349,6 +1430,8 @@
     flex-wrap: wrap;
     margin-top: -60px;
     width: 100%;
+    position: relative;
+    z-index: -1;
 }
 .footer > .top {
     display:flex;
@@ -1368,22 +1451,25 @@
 }
 .footer .summary .top {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    gap: 15px;
+    align-items: start;
 }
 .footer .summary img { 
-    width: 65px;
+    width: 60px;
     margin-bottom: 15px;
 }
 .footer .summary h3 { 
-    font-size: 25px;
+    font-size: 23px;
     font-family: var(--chunk);
     font-weight: 100;
     color: var(--bg-color);
-    margin-bottom: 10px;
+    margin-bottom: 8px;
+    margin-top: -2px;
     /* -webkit-text-stroke: 0.5px #1b1b1b; */
 }
 .footer .summary p { 
-    font-size: 15px;
+    font-size: 13px;
     font-family: var(--google);
     font-weight: 500;
     color: var(--gold);
@@ -1396,7 +1482,7 @@
 }
 .footer div h4 {
     font-size: 22px;
-    font-family: var(--sundae);
+    font-family: var(--chunk);
     font-weight: normal;
     color: var(--bg-color);
     margin-bottom: 8px;
@@ -1424,7 +1510,7 @@
     gap: 5px;
     justify-content: space-between;
     width: 100%;
-    padding-top: 50px;
+    padding-top: 30px;
     margin-top: 100px;
     border-top: 2px solid #fbfaf815;
 }
@@ -1432,4 +1518,28 @@
     font-size: 14px;
     color: #fbfaf875;
 }
+.footer .summary .socials {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 20px;
+    position: absolute;
+    bottom: 150px;
+}
+.footer .summary .socials span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333333;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.footer .summary .socials span img {
+    height: 18px;
+    margin-bottom: 0px;
+}
+/* .footer .footer-nav, .footer .business {
+    width: calc(50% - 25px);
+} */
 }
