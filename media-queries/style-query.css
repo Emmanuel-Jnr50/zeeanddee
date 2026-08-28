@@ -127,7 +127,7 @@
         margin-top: 15px;
         margin-left: 25px;
         margin-right: 25px;
-        margin-bottom: 30px;
+        margin-bottom: 25px;
     }
     .phone-hero nav .phone-nav .whatsapp button {
         padding: 15px 25px;
@@ -140,7 +140,7 @@
         font-weight: 500;
         transition: 400ms;
         cursor: pointer;
-        width: calc(100% - 55px);
+        width: calc(100% - 52px);
         display: flex;
         gap: 10px;
         justify-content: center;
@@ -152,8 +152,8 @@
     }
     .phone-hero nav .phone-nav .whatsapp span {
         border-radius: 40px;
-        height: 50px;
-        width: 50px;
+        height: 52px;
+        width: 52px;
         background-color: var(--gold);
         display: flex;
         align-items: center;
