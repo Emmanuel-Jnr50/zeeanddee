@@ -332,7 +332,7 @@
     .our-corner span img{
         width: 16px;
     }
-    .our-corner .header h3 {
+    .our-corner .header h2 {
         font-size: 35px;
         font-family: var(--chunk);
         color: var(--brown);
@@ -475,7 +475,7 @@
 .about-us .left span img{
     width: 16px;
 }
-.about-us .left>h3 {
+.about-us .left>h2 {
     font-size: 35px;
     font-family: var(--chunk);
     color: var(--brown);
@@ -549,7 +549,7 @@
 .cafe-section .main .header span img{
     width: 16px;
 }
-.cafe-section h3 {
+.cafe-section h2 {
     font-size: 35px;
     font-family: var(--chunk);
     color: var(--brown);
@@ -779,7 +779,7 @@
 .gallery .header span img{
     width: 16px;
 }
-.gallery .header h3 {
+.gallery .header h2 {
     font-size: 35px;
     font-family: var(--chunk);
     color: var(--brown);
@@ -906,7 +906,7 @@
 .our-spaces header span img{
     width: 16px;
 }
-.our-spaces .main .header h3 {
+.our-spaces .main .header h2 {
     font-size: 35px;
     font-family: var(--chunk);
     color: #ffffff;
@@ -1037,7 +1037,7 @@
 .why-us .header span img{
     width: 16px;
 }
-.why-us .header h3 {
+.why-us .header h2 {
     font-size: 35px;
     font-family: var(--chunk);
     color: var(--brown);
@@ -1126,7 +1126,7 @@
     width: 16px;
 }
 
-.testimonials .main .header h3 {
+.testimonials .main .header h2 {
     font-size: 40px;
     font-family: var(--chunk);
     color: var(--brown);
@@ -1314,7 +1314,7 @@
     width: 16px;
 }
 
-.visit-us .main .header h3 {
+.visit-us .main .header h2 {
     font-size: 35px;
     font-family: var(--chunk);
     color: #ffffff;
@@ -1889,7 +1889,7 @@
     .our-corner span img{
         width: 16px;
     }
-    .our-corner .header h3 {
+    .our-corner .header h2 {
         font-size: 40px;
         font-family: var(--chunk);
         color: var(--brown);
@@ -2032,7 +2032,7 @@
 .about-us .left span img{
     width: 16px;
 }
-.about-us .left>h3 {
+.about-us .left>h2 {
     font-size: 40px;
     font-family: var(--chunk);
     color: var(--brown);
@@ -2106,7 +2106,7 @@
 .cafe-section .main .header span img{
     width: 16px;
 }
-.cafe-section h3 {
+.cafe-section h2 {
     font-size: 40px;
     font-family: var(--chunk);
     color: var(--brown);
@@ -2330,7 +2330,7 @@
 .gallery .header span img{
     width: 16px;
 }
-.gallery .header h3 {
+.gallery .header h2 {
     font-size: 40px;
     font-family: var(--chunk);
     color: var(--brown);
@@ -2457,7 +2457,7 @@
 .our-spaces header span img{
     width: 16px;
 }
-.our-spaces .main .header h3 {
+.our-spaces .main .header h2 {
     font-size: 40px;
     font-family: var(--chunk);
     color: #ffffff;
@@ -2587,7 +2587,7 @@
 .why-us .header span img{
     width: 16px;
 }
-.why-us .header h3 {
+.why-us .header h2 {
     font-size: 40px;
     font-family: var(--chunk);
     color: var(--brown);
@@ -2676,7 +2676,7 @@
     width: 16px;
 }
 
-.testimonials .main .header h3 {
+.testimonials .main .header h2 {
     font-size: 40px;
     font-family: var(--chunk);
     color: var(--brown);
@@ -2868,7 +2868,7 @@
     width: 16px;
 }
 
-.visit-us .main .header h3 {
+.visit-us .main .header h2 {
     font-size: 40px;
     font-family: var(--chunk);
     color: #ffffff;

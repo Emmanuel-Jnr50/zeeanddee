@@ -45,7 +45,7 @@ gsap.from(".phone-hero .rotor", {
   ease: "power3.out",
 });
 gsap.from(
-  ".our-corner .header span, .our-corner .header h3, .our-corner .header p",
+  ".our-corner .header span, .our-corner .header h2, .our-corner .header p",
   {
     scrollTrigger: {
       trigger: ".our-corner .header", // element to watch
@@ -87,7 +87,7 @@ mm.add("(min-width: 800px) and (max-width: 1920px)", () => {
     ease: "power2.out",
   });
 });
-gsap.from(".about-us .left span, .about-us .left h3, .about-us .left p, .about-us .left button", {
+gsap.from(".about-us .left span, .about-us .left h2, .about-us .left p, .about-us .left button", {
   scrollTrigger: {
     trigger: ".about-us .left", // element to watch
     start: "top 80%", // when element hits 80% of viewport
@@ -115,7 +115,7 @@ gsap.from(".about-us .about-img .imgone", {
   ease: "power2.out",
 });
 gsap.from(
-  ".cafe-section .header span, .cafe-section .header h3, .cafe-section .header p",
+  ".cafe-section .header span, .cafe-section .header h2, .cafe-section .header p",
   {
     scrollTrigger: {
       trigger: ".cafe-section .header", // element to watch
@@ -183,9 +183,9 @@ gsap.from(".cafe-menu .menu span", {
   stagger: 0.2,
   ease: "power2.out",
 });
-gsap.from(".cafe-section .main > h3", {
+gsap.from(".cafe-section .main > h2", {
   scrollTrigger: {
-    trigger: ".cafe-section .main > h3", // element to watch
+    trigger: ".cafe-section .main > h2", // element to watch
     start: "top 80%", // when element hits 80% of viewport
     toggleActions: "play none none none",
     // play | pause | reverse | reset
@@ -224,7 +224,7 @@ mm.add("(min-width: 800px) and (max-width: 1920px)", () => {
     ease: "power2.out",
   });
 });
-gsap.from(".gallery .header span, .gallery .header h3, .gallery .header p", {
+gsap.from(".gallery .header span, .gallery .header h2, .gallery .header p", {
   scrollTrigger: {
     trigger: ".gallery .header", // element to watch
     start: "top 80%", // when element hits 80% of viewport
@@ -250,7 +250,7 @@ gsap.from(".gallery .image-grid .img", {
   ease: "power3.out",
 });
 gsap.from(
-  ".our-spaces .header span, .our-spaces .header h3, .our-spaces .header p",
+  ".our-spaces .header span, .our-spaces .header h2, .our-spaces .header p",
   {
     scrollTrigger: {
       trigger: ".our-spaces .header", // element to watch
@@ -266,7 +266,7 @@ gsap.from(
   },
 );
 gsap.from(
-  ".why-us .header span, .why-us .header h3, .why-us .header p",
+  ".why-us .header span, .why-us .header h2, .why-us .header p",
   {
     scrollTrigger: {
       trigger: ".why-us .header", // element to watch
@@ -340,7 +340,7 @@ mm.add({
     }
 });
 gsap.from(
-  ".testimonials .header span, .testimonials .header h3, .testimonials .header p",
+  ".testimonials .header span, .testimonials .header h2, .testimonials .header p",
   {
     scrollTrigger: {
       trigger: ".testimonials .header", // element to watch
@@ -368,7 +368,7 @@ gsap.from(".testimonials .testimonials-wrapper .testimonial", {
   ease: "power3.out",
 });
 gsap.from(
-  ".visit-us .header span, .visit-us .header h3, .visit-us .header p",
+  ".visit-us .header span, .visit-us .header h2, .visit-us .header p",
   {
     scrollTrigger: {
       trigger: ".visit-us .header", // element to watch

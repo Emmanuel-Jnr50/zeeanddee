@@ -507,7 +507,7 @@ body {
     width: 18px;
 }
 
-.about-us .left>h3 {
+.about-us .left>h2 {
     font-size: 60px;
     font-family: var(--chunk);
     color: var(--brown);
@@ -920,7 +920,7 @@ body {
     width: 18px;
 }
 
-.gallery .header h3 {
+.gallery .header h2 {
     font-size: 60px;
     font-family: var(--chunk);
     color: var(--brown);
@@ -1054,7 +1054,7 @@ body {
     width: 20px;
 }
 
-.our-spaces .main .header h3 {
+.our-spaces .main .header h2 {
     font-size: 70px;
     font-family: var(--chunk);
     color: #ffffff;
@@ -1305,7 +1305,7 @@ body {
     width: 18px;
 }
 
-.why-us .header h3 {
+.why-us .header h2 {
     font-size: 60px;
     font-family: var(--chunk);
     color: var(--brown);
@@ -1395,7 +1395,7 @@ body {
     width: 18px;
 }
 
-.testimonials .main .header h3 {
+.testimonials .main .header h2 {
     font-size: 60px;
     font-family: var(--chunk);
     color: var(--brown);
@@ -1593,7 +1593,7 @@ body {
     width: 20px;
 }
 
-.visit-us .main .header h3 {
+.visit-us .main .header h2 {
     font-size: 70px;
     font-family: var(--chunk);
     color: #ffffff;
