@@ -125,7 +125,7 @@
     .phone-hero nav .phone-nav>span:nth-child(1) {
         margin-top: 20px;
     }
-    .phone-hero nav .phone-nav>span:nth-child(5) {
+    .phone-hero nav .phone-nav>span:nth-child(3) {
         border-bottom: 1px solid rgb(200, 152, 72, 0);
     }
     .phone-hero nav .phone-nav .whatsapp {
@@ -170,7 +170,7 @@
         margin-bottom: 0px;
     }
     .phone-hero nav .phone-nav.active{
-        max-height: 60vh;
+        max-height: 35vh;
         /* opacity: 1; */
         /* transition: 500ms ease-out; */
     }
@@ -1682,7 +1682,7 @@
     .phone-hero nav .phone-nav>span:nth-child(1) {
         margin-top: 20px;
     }
-    .phone-hero nav .phone-nav>span:nth-child(5) {
+    .phone-hero nav .phone-nav>span:nth-child(3) {
         border-bottom: 1px solid rgb(200, 152, 72, 0);
     }
     .phone-hero nav .phone-nav .whatsapp {
@@ -1727,7 +1727,7 @@
         margin-bottom: 0px;
     }
     .phone-hero nav .phone-nav.active{
-        max-height: 60vh;
+        max-height: 35vh;
         /* opacity: 1; */
         /* transition: 500ms ease-out; */
     }
