@@ -170,7 +170,7 @@
         margin-bottom: 0px;
     }
     .phone-hero nav .phone-nav.active{
-        max-height: 35vh;
+        max-height: 45vh;
         /* opacity: 1; */
         /* transition: 500ms ease-out; */
     }
@@ -1727,7 +1727,7 @@
         margin-bottom: 0px;
     }
     .phone-hero nav .phone-nav.active{
-        max-height: 35vh;
+        max-height: 45vh;
         /* opacity: 1; */
         /* transition: 500ms ease-out; */
     }

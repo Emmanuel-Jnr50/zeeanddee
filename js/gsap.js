@@ -361,7 +361,7 @@ gsap.from(".testimonials .testimonials-wrapper .testimonial", {
     start: "top 60%",
     toggleActions: "play none none none",
   },
-  y: 50,
+  y: 20,
   opacity: 0,
   stagger: 0.3,
   duration: 0.5,
