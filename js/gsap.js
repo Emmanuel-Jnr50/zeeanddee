@@ -217,7 +217,7 @@ mm.add("(min-width: 800px) and (max-width: 1920px)", () => {
       start: "top 70%",
       toggleActions: "play none none none",
     },
-    y: 50,
+    y: 20,
     opacity: 0,
     stagger: 0.2,
     duration: 0.5,
@@ -327,7 +327,7 @@ mm.add({
 
                     gsap.set(card, {
                         scale,
-                        boxShadow: `0 ${5 * shadowStrength}px ${15 * shadowStrength}px rgba(60, 33, 23, ${0.08 * shadowStrength})`
+                        boxShadow: `0 ${5 * shadowStrength}px ${15 * shadowStrength}px rgba(60, 33, 23, ${0.03 * shadowStrength})`
                     });
                 }
             });
@@ -391,7 +391,7 @@ gsap.from(".visit-content .left div>span", {
   },
   y: 50,
   opacity: 0,
-  stagger: 0.3,
+  stagger: 0.1,
   duration: 0.5,
   ease: "power3.out",
 })
