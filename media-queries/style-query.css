@@ -845,6 +845,7 @@
 
 .gallery .image-grid .top .img.four {
     /* background-image: url(../img/IMG_0396.webp); */
+    height: 350px;
 }
 
 .gallery .image-grid .img.five {
@@ -2397,6 +2398,7 @@
 
 .gallery .image-grid .top .img.four {
     /* background-image: url(../img/IMG_0396.webp); */
+    height: 350px;
 }
 
 .gallery .image-grid .img.five {

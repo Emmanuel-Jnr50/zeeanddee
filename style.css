@@ -1041,7 +1041,6 @@ body {
 
 .gallery .image-grid .top .img.four {
     /* background-image: url(./img/IMG_0396.webp); */
-    height: 350px;
 }
 
 .gallery .image-grid .img.five {
@@ -1391,6 +1390,7 @@ body {
     width: calc(33.33% - 20px);
     background-color: var(--bg-sec);
     border-radius: 50px;
+    border: 1px solid #e3ddd3;
 }
 
 .why-us .reasons .card h4 {
