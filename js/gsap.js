@@ -282,19 +282,20 @@ gsap.from(
   },
 );
 mm.add("(min-width: 800px) and (max-width: 1920px)", () => {
-  gsap.from(".why-us .reasons .card", {
-    scrollTrigger: {
-      trigger: ".why-us .reasons",
-      start: "top 60%",
-      toggleActions: "play none none none",
-    },
-    y: 50,
-    opacity: 0,
-    stagger: 0.2,
-    duration: 0.5,
-    ease: "power3.out",
-  });
+  // gsap.from(".why-us .reasons .card", {
+  //   scrollTrigger: {
+  //     trigger: ".why-us .reasons",
+  //     start: "top 40%",
+  //     toggleActions: "play none none none",
+  //   },
+  //   y: 30,
+  //   opacity: 0,
+  //   stagger: 0.1,
+  //   duration: 0.5,
+  //   ease: "power2.out",
+  // });
 });
+
 
 /* ---- WHY US — mobile-only spotlight scale effect on cards ---- */
 mm.add({
@@ -363,9 +364,9 @@ gsap.from(".testimonials .testimonials-wrapper .testimonial", {
   },
   y: 20,
   opacity: 0,
-  stagger: 0.3,
+  stagger: 0.15,
   duration: 0.5,
-  ease: "power3.out",
+  ease: "power2.out",
 });
 gsap.from(
   ".visit-us .header span, .visit-us .header h2, .visit-us .header p",
