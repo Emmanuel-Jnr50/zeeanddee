@@ -284,7 +284,7 @@ body {
     width: 18px;
 }
 
-.our-corner .header>h3 {
+.our-corner .header>h2 {
     font-size: 60px;
     font-family: var(--chunk);
     color: var(--brown);
@@ -587,7 +587,7 @@ body {
     width: 18px;
 }
 
-.cafe-section h3 {
+.cafe-section h2 {
     font-size: 60px;
     font-family: var(--chunk);
     color: var(--brown);
@@ -1332,7 +1332,7 @@ body {
 }
 
 .why-us .reasons .card {
-    padding: 35px 30px;
+    padding: 35px 30px 40px 30px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -1355,6 +1355,8 @@ body {
     margin-top: 0px !important;
     font-family: var(--google);
     color: #3c2117cc;
+    font-size: 22px;
+    line-height: 32px;
 }
 
 .why-us .reasons .card span {
