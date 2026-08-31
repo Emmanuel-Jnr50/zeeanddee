@@ -398,7 +398,7 @@
         top: 0px;
     }
     .corner .spot.cafe {
-        background-image: url(../img/IMG-20260813-WA0057.webp);
+        /* background-image: url(../img/IMG-20260813-WA0057.webp); */
         width: 100%;
         background-size: cover;
         background-position: center;
@@ -407,7 +407,7 @@
         transition: 400ms !important;
     }
     .corner .spot.wine {
-        background-image: url(../img/IMG-20260813-WA0054.webp);
+        /* background-image: url(../img/IMG-20260813-WA0054.webp); */
         width: 100%;
         background-size: cover;
         background-position: center;
@@ -416,7 +416,7 @@
         transition: 400ms !important;
     }
     .corner .spot.home {
-        background-image: url(../img/toa-heftiba-TWOnvtstmeU-unsplash.webp);
+        /* background-image: url(../img/toa-heftiba-TWOnvtstmeU-unsplash.webp); */
         width: 100%;
         background-size: cover;
         background-position: center;
@@ -425,7 +425,7 @@
         transition: 400ms !important;
     }
     .corner .spot.scents {
-        background-image: url(../img/IMG-20260813-WA0043.webp);
+        /* background-image: url(../img/IMG-20260813-WA0043.webp); */
         width: 100%;
         background-size: cover;
         background-position: center;
@@ -434,7 +434,7 @@
         transition: 400ms !important;
     }
     .corner .spot.makeup {
-        background-image: url(../img/toa-heftiba-TWOnvtstmeU-unsplash.webp);
+        /* background-image: url(../img/toa-heftiba-TWOnvtstmeU-unsplash.webp); */
         width: 100%;
         background-size: cover;
         background-position: center;
@@ -520,7 +520,7 @@
 .about-img .imgone {
     width: 100%;
     height: 280px;
-    background-image: url(../img/roman-bozhko-OXXsAafHDeo-unsplash.webp);
+    /* background-image: url(../img/roman-bozhko-OXXsAafHDeo-unsplash.webp); */
     background-size: cover;
     border-radius: 40px;
     background-repeat: no-repeat;
@@ -579,7 +579,7 @@
     margin-bottom: 70px;
 }
 .cafe-section .cafe-menu .imgone {
-    background-image: url(../img/IMG20260813WA0042_edited_1787679589720.webp);
+    /* background-image: url(../img/IMG20260813WA0042_edited_1787679589720.webp); */
     transition: 400ms;
     height: 320px;
     width: 100%;
@@ -588,7 +588,7 @@
     border-radius: 40px;
 }
 .cafe-section .cafe-menu .imgtwo {
-    background-image: url(../img/IMG20260813WA0040_edited_1787679590026.webp);
+    /* background-image: url(../img/IMG20260813WA0040_edited_1787679590026.webp); */
     transition: 400ms;
     height: 205px;
     width: 100%;
@@ -725,26 +725,26 @@
     background-position: center 100%;
 }
 .cafe-section .meals .meal.one {
-    background-image: url(../img/cappuccino.webp);
+    /* background-image: url(../img/cappuccino.webp); */
     background-position: center -60px;
 }
 .cafe-section .meals .meal.two {
-    background-image: url(../img/lemon-margarita.webp);
+    /* background-image: url(../img/lemon-margarita.webp); */
     background-position: center -80px;
 }
 .cafe-section .meals .meal.three {
-    background-image: url(../img/pepper-turkey.webp);
+    /* background-image: url(../img/pepper-turkey.webp); */
 }
 .cafe-section .meals .meal.four {
-    background-image: url(../img/tropical-smoothie.webp);
+    /* background-image: url(../img/tropical-smoothie.webp); */
     background-position: center -50px;
 }
 .cafe-section .meals .meal.five {
-    background-image: url(../img/virgin-mojito.webp);  
+    /* background-image: url(../img/virgin-mojito.webp);   */
 }
 .cafe-section .meals .meal.six {
     background-position: center -90px;
-    background-image: url(../img/omelette-sandwich.webp);  
+    /* background-image: url(../img/omelette-sandwich.webp);   */
 }
 .cafe-section .meals .meal .price {
     position: absolute;
@@ -828,37 +828,37 @@
     background-position: center;
 }
 .gallery .image-grid .top .img.one {
-    background-image: url(../img/IMG-20260813-WA0042.webp);
+    /* background-image: url(../img/IMG-20260813-WA0042.webp); */
 }
 
 .gallery .image-grid .top .img.two {
-    background-image: url(../img/IMG0420_edited_1787660854159.webp);
+    /* background-image: url(../img/IMG0420_edited_1787660854159.webp); */
     height: 150px;
     width: calc(50% - 12px);
 }
 
 .gallery .image-grid .top .img.three {
-    background-image: url(../img/IMG0439_edited_1787660664211.webp);
+    /* background-image: url(../img/IMG0439_edited_1787660664211.webp); */
     height: 150px;
     width: calc(50% - 12px);
 }
 
 .gallery .image-grid .top .img.four {
-    background-image: url(../img/IMG_0396.webp);
+    /* background-image: url(../img/IMG_0396.webp); */
 }
 
 .gallery .image-grid .img.five {
-    background-image: url(../img/IMG0426_edited_1787660855257.webp);
+    /* background-image: url(../img/IMG0426_edited_1787660855257.webp); */
     height: 300px;
 }
 
 .gallery .image-grid .img.six {
-    background-image: url(../img/IMG0411_edited_1787660665268.webp);
+    /* background-image: url(../img/IMG0411_edited_1787660665268.webp); */
     height: 200px;
 }
 
 .gallery .image-grid .img.seven {
-    background-image: url(../img/IMG-20260813-WA0054.webp);
+    /* background-image: url(../img/IMG-20260813-WA0054.webp); */
     height: 300px;
 }
 .our-spaces {
@@ -2279,25 +2279,25 @@
     background-position: center 100%;
 }
 .cafe-section .meals .meal.one {
-    background-image: url(../img/cappuccino.webp);
+    /* background-image: url(../img/cappuccino.webp); */
 }
 .cafe-section .meals .meal.two {
-    background-image: url(../img/lemon-margarita.webp);
+    /* background-image: url(../img/lemon-margarita.webp); */
     background-position: center -80px;
 }
 .cafe-section .meals .meal.three {
-    background-image: url(../img/pepper-turkey.webp);
+    /* background-image: url(../img/pepper-turkey.webp); */
 }
 .cafe-section .meals .meal.four {
-    background-image: url(../img/tropical-smoothie.webp);
+    /* background-image: url(../img/tropical-smoothie.webp); */
     background-position: center -50px;
 }
 .cafe-section .meals .meal.five {
-    background-image: url(../img/virgin-mojito.webp);  
+    /* background-image: url(../img/virgin-mojito.webp);   */
 }
 .cafe-section .meals .meal.six {
     background-position: center -90px;
-    background-image: url(../img/omelette-sandwich.webp);  
+    /* background-image: url(../img/omelette-sandwich.webp);   */
 }
 .cafe-section .meals .meal .price {
     position: absolute;
@@ -2380,37 +2380,37 @@
     background-position: center;
 }
 .gallery .image-grid .top .img.one {
-    background-image: url(../img/IMG-20260813-WA0042.webp);
+    /* background-image: url(../img/IMG-20260813-WA0042.webp); */
 }
 
 .gallery .image-grid .top .img.two {
-    background-image: url(../img/IMG0420_edited_1787660854159.webp);
+    /* background-image: url(../img/IMG0420_edited_1787660854159.webp); */
     height: 150px;
     width: calc(50% - 12px);
 }
 
 .gallery .image-grid .top .img.three {
-    background-image: url(../img/IMG0439_edited_1787660664211.webp);
+    /* background-image: url(../img/IMG0439_edited_1787660664211.webp); */
     height: 150px;
     width: calc(50% - 12px);
 }
 
 .gallery .image-grid .top .img.four {
-    background-image: url(../img/IMG_0396.webp);
+    /* background-image: url(../img/IMG_0396.webp); */
 }
 
 .gallery .image-grid .img.five {
-    background-image: url(../img/IMG0426_edited_1787660855257.webp);
+    /* background-image: url(../img/IMG0426_edited_1787660855257.webp); */
     height: 300px;
 }
 
 .gallery .image-grid .img.six {
-    background-image: url(../img/IMG0411_edited_1787660665268.webp);
+    /* background-image: url(../img/IMG0411_edited_1787660665268.webp); */
     height: 200px;
 }
 
 .gallery .image-grid .img.seven {
-    background-image: url(../img/IMG-20260813-WA0054.webp);
+    /* background-image: url(../img/IMG-20260813-WA0054.webp); */
     height: 300px;
 }
 .our-spaces {
