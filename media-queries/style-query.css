@@ -1955,7 +1955,7 @@
         top: 0px;
     }
     .corner .spot.cafe {
-        background-image: url(../img/IMG-20260813-WA0057.webp);
+        /* background-image: url(../img/IMG-20260813-WA0057.webp); */
         width: 100%;
         background-size: cover;
         background-position: center;
@@ -1964,7 +1964,7 @@
         transition: 400ms !important;
     }
     .corner .spot.wine {
-        background-image: url(../img/IMG-20260813-WA0054.webp);
+        /* background-image: url(../img/IMG-20260813-WA0054.webp); */
         width: 100%;
         background-size: cover;
         background-position: center;
@@ -1973,7 +1973,7 @@
         transition: 400ms !important;
     }
     .corner .spot.home {
-        background-image: url(../img/toa-heftiba-TWOnvtstmeU-unsplash.webp);
+        /* background-image: url(../img/toa-heftiba-TWOnvtstmeU-unsplash.webp); */
         width: 100%;
         background-size: cover;
         background-position: center;
@@ -1982,7 +1982,7 @@
         transition: 400ms !important;
     }
     .corner .spot.scents {
-        background-image: url(../img/IMG-20260813-WA0043.webp);
+        /* background-image: url(../img/IMG-20260813-WA0043.webp); */
         width: 100%;
         background-size: cover;
         background-position: center;
@@ -1991,7 +1991,7 @@
         transition: 400ms !important;
     }
     .corner .spot.makeup {
-        background-image: url(../img/toa-heftiba-TWOnvtstmeU-unsplash.webp);
+        /* background-image: url(../img/toa-heftiba-TWOnvtstmeU-unsplash.webp); */
         width: 100%;
         background-size: cover;
         background-position: center;
@@ -2077,7 +2077,7 @@
 .about-img .imgone {
     width: 100%;
     height: 280px;
-    background-image: url(../img/roman-bozhko-OXXsAafHDeo-unsplash.webp);
+    /* background-image: url(../img/roman-bozhko-OXXsAafHDeo-unsplash.webp); */
     background-size: cover;
     border-radius: 40px;
     background-repeat: no-repeat;
@@ -2133,7 +2133,7 @@
     margin-bottom: 70px;
 }
 .cafe-section .cafe-menu .imgone {
-    background-image: url(../img/IMG20260813WA0042_edited_1787679589720.webp);
+    /* background-image: url(../img/IMG20260813WA0042_edited_1787679589720.webp); */
     transition: 400ms;
     height: 350px;
     width: 100%;
@@ -2142,7 +2142,7 @@
     border-radius: 40px;
 }
 .cafe-section .cafe-menu .imgtwo {
-    background-image: url(../img/IMG20260813WA0040_edited_1787679590026.webp);
+    /* background-image: url(../img/IMG20260813WA0040_edited_1787679590026.webp); */
     transition: 400ms;
     height: 225px;
     width: 100%;
@@ -2227,16 +2227,17 @@
         top: auto;
         bottom: 40px;
         left: 30px;
+        position: absolute;
+        z-index: 10;
     }
     .cafe-section .meals .meal .info p {
         width: auto;
-        max-width: 320px;
     }
 
 .cafe-section .meals .meal .info {
-    position: relative;
+    position: absolute;
     z-index: 10;
-    top: 220px;
+    top: 260px;
     left: 25px;
 }
 .cafe-section .meals .meal .info h3{
@@ -2251,7 +2252,7 @@
     color: var(--bg-sec);
     font-weight: 300;
     line-height: 24px;
-    width: 80%;
+    width: 90%;
     opacity: 0.95;
     margin-top: 9px;
     opacity: 0.75;
