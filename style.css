@@ -13,6 +13,13 @@
     font-weight: normal;
     font-style: normal;
 }
+* a {
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
 
 :root {
     --bg-color: #FBFAF8;
@@ -61,9 +68,9 @@ body {
 .hero {
     width: 100%;
     background-image: url(img/IMG0439_edited_1787660664211.webp);
-    height: 1080px;
+    height: 950px;
     background-size: cover;
-    /* border-radius: 0px 0px 60px 60px; */
+    border-radius: 0px 0px 100px 100px;
     overflow: hidden;
     position: relative;
     padding-left: calc(1920px - 1800px - 60px);
@@ -137,7 +144,8 @@ body {
     justify-content: center;
     border-radius: 20px;
 }
-.hero nav .links a:hover {
+.hero nav .links a:hover,
+.hero nav .links a.active {
     background-color: #3e251b;
 }
 
@@ -162,8 +170,12 @@ body {
 .hero .hero-text {
     position: relative;
     z-index: 10;
-    margin: 0 120px;
-    margin-top: 15%;
+    margin-top: 14%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero .hero-text>span {
@@ -184,20 +196,20 @@ body {
 }
 
 .hero .hero-text h1 {
-    font-size: 70px;
+    font-size: 60px;
     font-family: var(--chunk);
     color: #ffffff;
     font-weight: 100;
-    width: 55%;
+    width: 100%;
     margin: 50px 0px 30px;
 }
 
 .hero .hero-text p {
-    font-size: 22px;
+    font-size: 20px;
     color: #ffffff;
     font-weight: 400;
     line-height: 35px;
-    width: 35%;
+    width: 30%;
     opacity: 0.9;
     margin-bottom: 50px;
 }
@@ -215,6 +227,7 @@ body {
     width: 60px;
     background-color: var(--brown);
     border-radius: 50%;
+    display: none;
 }
 .hero-text div i img {
     width: 18px !important;
@@ -301,7 +314,7 @@ body {
 }
 
 .our-corner .header>h2 {
-    font-size: 60px;
+    font-size: 54px;
     font-family: var(--chunk);
     color: var(--brown);
     font-weight: 100;
@@ -314,7 +327,7 @@ body {
     color: var(--brown);
     font-weight: 400;
     line-height: 33px;
-    width: 37%;
+    width: 40%;
     opacity: 0.9;
     margin-bottom: 75px;
     opacity: 0.75;
@@ -530,7 +543,7 @@ body {
 }
 
 .about-us .left>h2 {
-    font-size: 60px;
+    font-size: 54px;
     font-family: var(--chunk);
     color: var(--brown);
     font-weight: 100;
@@ -558,8 +571,14 @@ body {
     border: none;
     font-weight: 500;
     cursor: pointer;
+    display: flex;
+    align-items: center;
 }
 
+.about-us button img {
+    width: 18px;
+    margin-right: 10px;
+}
 .about-us button:hover {
     background-color: #b48b43;
     transition: 400ms ease-in-out;
@@ -616,7 +635,7 @@ body {
 }
 
 .cafe-section h2 {
-    font-size: 60px;
+    font-size: 54px;
     font-family: var(--chunk);
     color: var(--brown);
     font-weight: 100;
@@ -625,11 +644,11 @@ body {
 }
 
 .cafe-section p {
-    font-size: 22px;
+    font-size: 21px;
     color: var(--brown);
     font-weight: 400;
     line-height: 33px;
-    width: 50%;
+    width: 45%;
     opacity: 0.9;
     margin-bottom: 75px;
     opacity: 0.75;
@@ -684,7 +703,7 @@ body {
 }
 
 .cafe-section .cafe-menu .menu span p {
-    font-size: 16px;
+    font-size: 18px;
     color: #1b1b1b;
     font-weight: 400;
     margin: 0px !important;
@@ -745,12 +764,14 @@ body {
     padding: 20px;
     border-radius: 50%;
 }
-
+.cafe-section .header.two p {
+    margin-bottom: 0px;
+}
 .cafe-section .meals {
     display: flex;
     gap: 30px;
     width: 100%;
-    margin-top: 50px;
+    margin-top: 0px;
     border-radius: 40px;
 }
 
@@ -793,7 +814,7 @@ body {
     display: flex;
     gap: 30px;
     width: 100%;
-    margin-top: 50px;
+    margin-top: 0px;
     flex-wrap: nowrap;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
@@ -967,7 +988,7 @@ body {
 }
 
 .gallery .header h2 {
-    font-size: 60px;
+    font-size: 54px;
     font-family: var(--chunk);
     color: var(--brown);
     font-weight: 100;
@@ -976,7 +997,7 @@ body {
 }
 
 .gallery .header p {
-    font-size: 22px;
+    font-size: 21px;
     color: var(--brown);
     font-weight: 400;
     line-height: 33px;
@@ -1106,7 +1127,7 @@ body {
 }
 
 .our-spaces .main .header h2 {
-    font-size: 70px;
+    font-size: 54px;
     font-family: var(--chunk);
     color: #ffffff;
     font-weight: normal;
@@ -1116,11 +1137,11 @@ body {
 }
 
 .our-spaces .main .header p {
-    font-size: 22px;
+    font-size: 21px;
     color: #ffffff;
     font-weight: 400;
     line-height: 35px;
-    width: 50%;
+    width: 45%;
     opacity: 0.9;
     margin-bottom: 50px;
 }
@@ -1357,7 +1378,7 @@ body {
 }
 
 .why-us .header h2 {
-    font-size: 60px;
+    font-size: 54px;
     font-family: var(--chunk);
     color: var(--brown);
     font-weight: 100;
@@ -1366,7 +1387,7 @@ body {
 }
 
 .why-us .header p {
-    font-size: 22px;
+    font-size: 21px;
     color: var(--brown);
     font-weight: 400;
     line-height: 33px;
@@ -1669,6 +1690,7 @@ body {
 .visit-content {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .visit-container {
     background-color: #fbfaf8cc;

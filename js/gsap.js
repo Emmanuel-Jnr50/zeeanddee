@@ -17,7 +17,7 @@ gsap.from(
     ease: "power3.out",
   },
 );
-gsap.from(".hero .hero-text span, .hero .hero-text h1, .hero .hero-text p", {
+gsap.from(".hero .hero-text span, .hero .hero-text h1, .hero .hero-text p, .hero .hero-text div", {
   scrollTrigger: {
     trigger: "hero", // element to watch
     start: "top 80%", // when element hits 80% of viewport
@@ -28,7 +28,7 @@ gsap.from(".hero .hero-text span, .hero .hero-text h1, .hero .hero-text p", {
   opacity: 0,
   duration: 1,
   stagger: 0.2,
-  ease: "power3.out",
+  ease: "power2.out",
 });
 gsap.from(".phone-hero .rotor", {
   scrollTrigger: {
@@ -77,7 +77,7 @@ mm.add("(min-width: 800px) and (max-width: 1920px)", () => {
   gsap.from(".our-corner .corner .spot", {
     scrollTrigger: {
       trigger: ".our-corner .corner",
-      start: "top 70%",
+      start: "top 80%",
       toggleActions: "play none none none",
     },
     y: 30,
@@ -214,7 +214,7 @@ mm.add("(min-width: 800px) and (max-width: 1920px)", () => {
   gsap.from(".cafe-section .meals .meal", {
     scrollTrigger: {
       trigger: ".cafe-section .meals",
-      start: "top 70%",
+      start: "top 80%",
       toggleActions: "play none none none",
     },
     y: 20,
@@ -245,9 +245,9 @@ gsap.from(".gallery .image-grid .img", {
   },
   y: 50,
   opacity: 0,
-  stagger: 0.3,
-  duration: 0.5,
-  ease: "power3.out",
+  stagger: 0.25,
+  duration: 0.7,
+  ease: "power2.out",
 });
 gsap.from(
   ".our-spaces .header span, .our-spaces .header h2, .our-spaces .header p",
@@ -397,15 +397,15 @@ gsap.from(".visit-content .left div>span", {
   ease: "power3.out",
 })
 gsap.from(
-  ".visit-container .location p, visit-container .opening-hours .hours span, .visit-container .contact p",
+  ".visit-container",
   {
     scrollTrigger: {
-      trigger: ".visit-container div", // element to watch
+      trigger: ".visit-container", // element to watch
       start: "top 80%", // when element hits 80% of viewport
       toggleActions: "play none none none",
       // play | pause | reverse | reset
     },
-    x: -40,
+    y: 40,
     opacity: 0,
     duration: 0.7,
     stagger: 0.15,
@@ -422,4 +422,17 @@ gsap.from(".visit-content .map", {
   opacity: 0,
   duration: 0.5,
   ease: "power2.out",
-})
+});
+
+gsap.from(".footer .top .summary, .footer .top .footer-nav, .footer .top .business, .footer .top .contact, .footer .bottom", {
+  scrollTrigger: {
+    trigger: ".footer .top",
+    start: "top 60%",
+    toggleActions: "play none none none",
+  },
+  y: 50,
+  opacity: 0,
+  stagger: 0.2,
+  duration: 0.8,
+  ease: "power2.out",
+});
