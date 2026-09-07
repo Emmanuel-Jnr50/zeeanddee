@@ -130,46 +130,36 @@ gsap.from(
     ease: "power2.out",
   },
 );
-gsap.fromTo(
-  ".cafe-menu .imgone",
-  {
-    y: 35,
-    opacity: 0,
-    duration: 0.7,
-    scale: 0.8,
-    ease: "power2.out",
+
+gsap.from(".cafe-menu .imgone", {
+  scrollTrigger: {
+    trigger: ".cafe-menu .imgone", // element to watch
+    start: "top 80%", // when element hits 80% of viewport
+    toggleActions: "play none none none",
+    // play | pause | reverse | reset
   },
-  {
-    y: 0,
-    opacity: 1,
-    scale: 1,
-    ease: "power2.out",
-    scrollTrigger: {
-      trigger: ".cafe-menu .imgone", // element to watch
-      start: "top 80%", // when element hits 80% of viewport
-    },
+  y: 35,
+  scale: 0.8,
+  opacity: 0,
+  stagger: 0.2,
+  duration: 0.7,
+  ease: "power2.out",
+});
+gsap.from(".cafe-menu .imgtwo", {
+  scrollTrigger: {
+    trigger: ".cafe-menu .imgtwo", // element to watch
+    start: "top 80%", // when element hits 80% of viewport
+    toggleActions: "play none none none",
+    // play | pause | reverse | reset
   },
-);
-gsap.fromTo(
-  ".cafe-menu .imgtwo",
-  {
-    y: 35,
-    opacity: 0,
-    duration: 0.7,
-    scale: 0.8,
-    ease: "power2.out",
-  },
-  {
-    y: 0,
-    opacity: 1,
-    scale: 1,
-    ease: "power2.out",
-    scrollTrigger: {
-      trigger: ".cafe-menu .imgtwo", // element to watch
-      start: "top 80%", // when element hits 80% of viewport
-    },
-  },
-);
+  y: 35,
+  scale: 0.8,
+  opacity: 0,
+  stagger: 0.2,
+  duration: 0.7,
+  ease: "power2.out",
+});
+
 gsap.from(".cafe-menu .menu span", {
   scrollTrigger: {
     trigger: ".cafe-menu .menu", // element to watch

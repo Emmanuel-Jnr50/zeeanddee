@@ -713,7 +713,6 @@ body {
 
 .cafe-section .cafe-menu .imgone {
     /* background-image: url(./img/IMG20260813WA0042_edited_1787679589720.webp); */
-    transition: 400ms;
     height: 100%;
     width: 68%;
     background-size: cover;
@@ -724,7 +723,6 @@ body {
 
 .cafe-section .cafe-menu .imgtwo {
     /* background-image: url(./img/IMG20260813WA0040_edited_1787679590026.webp); */
-    transition: 400ms;
     height: 265px;
     width: calc(32% - 30px);
     background-size: cover;
@@ -773,6 +771,9 @@ body {
     width: 100%;
     margin-top: 0px;
     border-radius: 40px;
+    /* touch-action: pan-y; */
+    overflow: hidden;
+    /* pointer-events: scroll; */
 }
 
 .cafe-section .meals .meal {
@@ -1780,12 +1781,16 @@ body {
     height: 65px;
     border-radius: 40px;
     justify-content: center;
+    transition: 400ms;
 }
 .visit-container .contact-btns button:nth-child(1) {
     width: 100%;
 }
 .visit-container .contact-btns button img {
     width: 26px;
+}
+.visit-container .contact-btns button:active {
+    transform: scale(0.9);
 }
 .map .cta{
     display: flex;
@@ -1807,8 +1812,11 @@ body {
     border-radius: 50px;
     font-family: var(--google);
     font-weight: 500;
+    transition: 400ms;
 }
-
+.map .cta button:active {
+    transform: scale(0.9);
+}
 .footer {
     background-color: #1b1b1b;
     padding: 150px 140px 50px 140px;
