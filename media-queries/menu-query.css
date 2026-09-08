@@ -637,6 +637,15 @@
         margin-bottom: 50px;
         font-family: var(--google);
     }
+    .rotor img {
+        position: absolute;
+        z-index: 10;
+        width: 305px;
+        /* top: 340px; */
+        bottom: -280px;
+        right: -105px;
+        animation: none;
+    }
     .menu-quicknav {
         margin: 30px 20px;
         justify-content: left;
