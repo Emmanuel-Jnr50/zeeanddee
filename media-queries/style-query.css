@@ -208,7 +208,7 @@
         margin: 30px 0px 15px ;
     }
     .phone-hero .hero-text p {
-        font-size: 16px;
+        font-size: 15.5px;
         color: var(--brown);
         font-weight: 400;
         line-height: 24px;
@@ -337,7 +337,7 @@
         width: 16px;
     }
     .our-corner .header h2 {
-        font-size: 35px;
+        font-size: 34px;
         font-family: var(--chunk);
         color: var(--brown);
         font-weight: 100;
@@ -355,7 +355,7 @@
         font-family: var(--google);
     }
     .corner .spot {
-        height: 340px;
+        height: 330px;
         border-radius: 40px;
         position: relative;
         overflow: hidden;
@@ -365,7 +365,7 @@
         position: absolute;
         z-index: 10;
         top: 210px !important;
-        left: 25px !important;
+        left: 20px !important;
     }
     .corner .spot .info h3{
         font-family: var(--sundae);
@@ -480,7 +480,7 @@
     width: 16px;
 }
 .about-us .left>h2 {
-    font-size: 35px;
+    font-size: 34px;
     font-family: var(--chunk);
     color: var(--brown);
     font-weight: 100;
@@ -554,7 +554,7 @@
     width: 16px;
 }
 .cafe-section h2 {
-    font-size: 35px;
+    font-size: 34px;
     font-family: var(--chunk);
     color: var(--brown);
     font-weight: 100;
@@ -683,10 +683,10 @@
     }
 
 .cafe-section .meals .meal .info {
-    position: relative;
+    position: absolute;
     z-index: 10;
-    top: 175px;
-    left: 25px;
+    top: 210px;
+    left: 20px;
 }
 .cafe-section .meals .meal .info h3{
     font-family: var(--sundae);
@@ -696,11 +696,11 @@
     width: 100%;
 }
 .cafe-section .meals .meal .info p {
-    font-size: 16px;
+    font-size: 15px;
     color: var(--bg-sec);
     font-weight: 300;
     line-height: 24px;
-    width: 85%;
+    width: 90%;
     opacity: 0.95;
     margin-top: 9px;
     opacity: 0.75;
@@ -761,6 +761,13 @@
     color: #562731;
     display: none;
 }
+.cafe-section .meals .meal img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    z-index: -1;
+}
 .gallery {
     margin: 170px 20px;
 }
@@ -782,7 +789,7 @@
     width: 16px;
 }
 .gallery .header h2 {
-    font-size: 35px;
+    font-size: 34px;
     font-family: var(--chunk);
     color: var(--brown);
     font-weight: 100;
@@ -910,7 +917,7 @@
     width: 16px;
 }
 .our-spaces .main .header h2 {
-    font-size: 35px;
+    font-size: 34px;
     font-family: var(--chunk);
     color: #ffffff;
     font-weight: normal;
@@ -1041,7 +1048,7 @@
     width: 16px;
 }
 .why-us .header h2 {
-    font-size: 35px;
+    font-size: 34px;
     font-family: var(--chunk);
     color: var(--brown);
     font-weight: 100;
@@ -1130,7 +1137,7 @@
 }
 
 .testimonials .main .header h2 {
-    font-size: 40px;
+    font-size: 34px;
     font-family: var(--chunk);
     color: var(--brown);
     font-weight: 100;
@@ -1174,7 +1181,7 @@
 
 /* fixed: was .testimonials .testimonial (didn't match your HTML) */
 .testimonials-wrapper .testimonial {
-    padding: 35px 30px;
+    padding: 25px 20px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -1190,7 +1197,7 @@
     .testimonials-wrapper .testimonial {
         flex: 0 0 88%;
         /* 1 + peek */
-        padding: 28px 24px;
+        padding: 26px 22px;
         border-radius: 40px;
         gap: 22px;
     }
@@ -1203,14 +1210,14 @@
     display: flex;
     align-items: center;
     gap: 5px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .testimonial span img {
     width: 16px;
 }
 .testimonial p {
-    width: 100%;
-    font-size: 16px;
+    width: 90%;
+    font-size: 15px;
     color: var(--brown);
     font-weight: 400;
     line-height: 26px;
@@ -1480,7 +1487,7 @@
     display:flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-top: -60px;
+    margin-top: -70px;
     width: 100%;
     position: relative;
     z-index: -1;
@@ -1576,7 +1583,7 @@
     gap: 12px;
     margin-top: 20px;
     position: absolute;
-    bottom: 150px;
+    top: 990px;
 }
 .footer .summary .socials span {
     display: flex;
